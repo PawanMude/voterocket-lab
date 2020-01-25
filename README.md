@@ -387,8 +387,15 @@ cp ~/environment/voterocket-lab/samples/index.html ./public
 ```
 
 **39.** Run this command to start the app:
-Edit node_modules/react-dev-utils/webpackHotDevClient.js line no 62 with ; with text mentioned below: 
-protocol: window.location.protocol === 'https:' ? 'wss' : 'ws',
+
+```bash
+vi node_modules/react-dev-utils/webpackHotDevClient.js 
+
+Update Line # 62 as protocol: window.location.protocol === 'https:' ? 'wss' : 'ws',
+
+```
+
+
 
 ### Try out the application
 
