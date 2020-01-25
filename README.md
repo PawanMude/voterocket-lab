@@ -386,9 +386,13 @@ cp ~/environment/voterocket-lab/samples/App.js ./src
 cp ~/environment/voterocket-lab/samples/index.html ./public
 ```
 
+**39.** Run this command to start the app:
+Edit node_modules/react-dev-utils/webpackHotDevClient.js line no 62 with ; with text mentioned below: 
+protocol: window.location.protocol === 'https:' ? 'wss' : 'ws',
+
 ### Try out the application
 
-**39.** Run this command to start the app:
+**40.** Run this command to start the app:
 
 ```
 yarn start
@@ -406,21 +410,27 @@ Note that the development build is not optimized.
 To create a production build, use yarn build.
 ```
 
-**40.** In the Cloud9 **Preview** menu, click **Preview Running Application**.
+**41.** In the Cloud9 **Preview** menu, click **Preview Running Application**.
 
-**41.** Click the 'popout' icon to open it in a new browser tab, as shown below:
+**42.** Click the 'popout' icon to open it in a new browser tab, as shown below:
 
 ![](images/c9_preview.png)
 
-**42.** Press some buttons to cast votes.
+**43.** Press some buttons to cast votes.
 
 The chart should update in real-time.
 
 ![](images/voterocket_front_end.png)
 
-**43.** Open the URL in another browser tab.
+**44.** Open the URL in another browser tab.
 
 You should see the same chart update in that window, also in real-time.
+
+**45.** Preview Running Applications : 
+
+Previewing Running Applications in the AWS Cloud9 Integrated Development Environment (IDE)
+https://docs.aws.amazon.com/cloud9/latest/user-guide/app-preview.html#app-preview-share
+
 
 ## Recap
 
