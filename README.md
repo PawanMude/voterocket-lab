@@ -386,7 +386,7 @@ cp ~/environment/voterocket-lab/samples/App.js ./src
 cp ~/environment/voterocket-lab/samples/index.html ./public
 ```
 
-**39.** Run this command to start the app:
+**39.** Fix websocket bug:
 
 ```bash
 vi node_modules/react-dev-utils/webpackHotDevClient.js 
